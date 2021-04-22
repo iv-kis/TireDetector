@@ -12,9 +12,10 @@ To run the detector, download the project and enter the following line into term
 It is also possible to run the detector in Colaboratory with the notebook **Notebooks/TireDetector_(colab).ipynb**  
 
 ## Project structure  
-**1. Input**  
+**- Input**  
 The folder for input files  
-**2. Notebooks**  
+**- Notebooks**  
 Colab-adapted .ipynb files for training, testing and run of the detector  
-**3. Output**  
+**- Output**  
 Destination folder for the output of **tire_detector.py** script  
+**-  
