@@ -69,11 +69,23 @@ Number of classes: 1
 
   - YOLO-v4-tiny trained for 4000 batches, during 3 hours  
   - The training of YOLO-v4 took 10 h for 3800 batches.  
-    However only the weights on stage 3000 were saved, because of Colab kernel drop by GPU time limit.  
+    However, only the weights on stage 3000 were saved, because of Colab kernel drop by GPU time limit.  
 
 **Trainig charts:**  
 YOLO v4 Tiny | YOLO v4
 ------------ | -------------
 ![YOLO v4 Tiny](/chart_yolov4tiny.png) | ![YOLO v4](/chart_yolov4.png)
   
-
+## Testing
+The results on the test set:  
+Num. batches | YOLO v4 tiny | YOLO v4
+------------ | ------------- | -------------
+1000 | 86.26 | 92.11
+------------ | ------------- | -------------
+2000 | 86.23 | 94.09
+ ------------ | ------------- | -------------
+3000 | 88.85 | 93.15
+------------ | ------------- | -------------
+4000 | 88.16 | None
+------------ | ------------- | -------------
+"best" | 89.21 | None
