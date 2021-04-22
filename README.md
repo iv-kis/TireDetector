@@ -29,3 +29,4 @@ The folder with model weights and config files. Numbers (1000/2000/3000..) mean 
   - main script **tire_detector.py**  
 
 ## Dataset
+1. Original dataset - the [Stanford Cars dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)  
