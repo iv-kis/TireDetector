@@ -18,5 +18,5 @@ The folder for input files
 Colab-adapted .ipynb files for training, testing and run of the detector  
 - **Output**  
 Destination folder for the output of **tire_detector.py** script  
-- **model**
+- **model**  
 The folder with model weights and config files. Numbers (1000/2000/3000..) mean the number of learned batches (different stages of training).  
