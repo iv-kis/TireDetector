@@ -1,5 +1,3 @@
-classes = 1
-train = train.txt
-valid = test.txt
-names = classes.txt
-backup = backup
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c4940d544ca21d83cc1c9d7f456e1cd84e5da6c677a0da83f391c5ea12005c1
+size 82
