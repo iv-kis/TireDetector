@@ -41,7 +41,7 @@ Annotated 1500 images in [Roboflow online tool](roboflow.com)
 - annotated all visible tires, except for the smallest  
 - annotated truncated tires  
 - annotated occluded tires  
-- annotated fron-view and far-side tires  
+- annotated front-view and far-side tires  
 ### Augmentation  
 Only brightness variations between 0 and 40%, 2 x train data   
 ### Train - Valid - Test split after augmentation of train data  
@@ -93,4 +93,4 @@ Windows-10-10.0.19041-SP0
 AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD  
 (CPU)  
 > **Yolo v.4:** 1000 - 1200 ms  
-> **Yolo v.4:** 100 - 150 ms  
+> **Yolo v.4 tiny:** 100 - 150 ms  
