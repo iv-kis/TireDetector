@@ -85,3 +85,9 @@ Num. batches | YOLO v4 tiny | YOLO v4
 3000 | 88.85 | 93.15
 4000 | 88.16 | None
 "best" | 89.21 | None
+
+## Inference speed
+Windows-10-10.0.19041-SP0
+AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+> **Yolo v.4:** 1000 - 1200 ms
+> **Yolo v.4:** 100 - 150 ms
