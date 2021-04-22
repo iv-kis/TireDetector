@@ -9,8 +9,7 @@ To run the detector, download the project and enter the following line into term
 > e.g. `python tire_detector.py -f car3.jpg -i image -m yolo4`  
 > *Make sure that your environment corresponds to the requirements.*  
 
-It is also possible to run the detector in Colaboratory with the notebook  
-**Notebooks/TireDetector_(colab).ipynb**  
+It is also possible to run the detector in Colaboratory with the notebook **Notebooks/TireDetector_(colab).ipynb**  
 
 ## Project structure  
 **1. Input**  
