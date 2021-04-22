@@ -46,17 +46,31 @@ Only brightness variations between 0 and 40%, 2 x train data
 2000 - 279 - 145 images correspondingly 
 
 ## Model
-The developed detector can use two models: YOLOv4 and YOLOv4 Tiny ([Darknet, roboflow fork](https://github.com/roboflow-ai/darknet))  
+The developed detector can use two models: YOLOv4 and YOLOv4 Tiny ([Darknet, roboflow fork](https://github.com/roboflow-ai/darknet)) 
+
 **YOLO v4:**
   - CSPDarknet53 backbone (137 pretrained conv layers)  
   - 3 YOLO layers  
   - Mish activation  
-  - 416 x 416 input   
-**YOLO v4 tiny:**  
+  - 416 x 416 input  
+ 
+**YOLO v4 tiny:**   
   - CSPDarknet53 backbone (29 pretrained conv layers)  
   - 2 YOLO layers  
   - Leaky ReLU activation  
   - 416 x 416 input  
  > [Original paper](https://arxiv.org/pdf/2004.10934.pdf)
  > 
+
 ## Training
+The training was performed on Google Colaboratory on GPU.  
+Batch size: 64, subdivisions: 32  
+Number of classes: 1  
+
+  - YOLO-v4-tiny trained for 4000 batches, during 3 hours  
+  - The training of YOLO-v4 took 10 h for 3800 batches.  
+    However only the weights on stage 3000 were saved, because of Colab kernel drop by GPU time limit.  
+
+**Trainig charts:**
+![YOLO v4 Tiny](/chart_yolov4tiny.png)![YOLO v4](/chart_yolov4.png)  
+YOLO v4 Tiny
