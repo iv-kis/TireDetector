@@ -45,3 +45,8 @@ Only brightness variations between 0 and 40%, 2 x train data
 ### Train - Valid - Test split after augmentation of train data  
 2000 - 279 - 145 images correspondingly 
 
+## Model
+The developed detector can use two models: YOLOv4 ([Darknet, roboflow fork](https://github.com/roboflow-ai/darknet)) and YOLOv4 Tiny (Darknet) 
+YOLO v4:
+  - Mish activation
+  - 
