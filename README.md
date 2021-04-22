@@ -46,15 +46,17 @@ Only brightness variations between 0 and 40%, 2 x train data
 2000 - 279 - 145 images correspondingly 
 
 ## Model
-The developed detector can use two models: YOLOv4 and YOLOv4 Tiny ([Darknet, roboflow fork](https://github.com/roboflow-ai/darknet))
+The developed detector can use two models: YOLOv4 and YOLOv4 Tiny ([Darknet, roboflow fork](https://github.com/roboflow-ai/darknet))  
 **YOLO v4:**
-  - CSPDarknet53 backbone (137 pretrained conv layers)
-  - 3 YOLO layers
-  - Mish activation
+  - CSPDarknet53 backbone (137 pretrained conv layers)  
+  - 3 YOLO layers  
+  - Mish activation  
+  - 416 x 416 input   
+**YOLO v4 tiny:**  
+  - CSPDarknet53 backbone (29 pretrained conv layers)  
+  - 2 YOLO layers  
+  - Leaky ReLU activation  
   - 416 x 416 input  
-**YOLO v4 tiny:**
-  - CSPDarknet53 backbone (29 pretrained conv layers)
-  - 2 YOLO layers
-  - Leaky ReLU activation
-  - 416 x 416 input  
-  [Original paper](https://arxiv.org/pdf/2004.10934.pdf)
+ > [Original paper](https://arxiv.org/pdf/2004.10934.pdf)
+ > 
+## Training
