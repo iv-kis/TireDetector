@@ -33,8 +33,14 @@ The folder with model weights and config files. Numbers (1000/2000/3000..) mean 
 The [Stanford Cars dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)  
 ### Annotation
 Annotated in [Roboflow online tool](roboflow.com)  
+*Annotation rules:*  
+- trade-off between "don't punish for the truth" and "don't force to see the invisible"  
+- annotated all visible tires, except for the smallest  
+- annotated truncated tires  
+- annotated occluded tires  
+- annotated fron-view and far-side tires  
 ### Augmentation  
-Only brightness variations  
+Only brightness variations between 0 and 40%, 2 x train data   
 ### Train - Valid - Test split after augmentation of train data  
 2000 - 279 - 145 images correspondingly 
 
