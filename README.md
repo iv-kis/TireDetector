@@ -1,5 +1,7 @@
 # Vehicle tire detector based on YOLO v.4  
 *I. Kisialiou, 2021*  
+
+![Output image example](/Output/yolo4_car4.jpg)  
 ## How to run
 To run the detector, download the project and enter the following line into terminal:    
 `python tire_detector.py -f <filename> -i <inputtype> -m <model>`  
@@ -25,3 +27,5 @@ The folder with model weights and config files. Numbers (1000/2000/3000..) mean 
   - training process charts  
   - environment files  
   - main script **tire_detector.py**  
+
+## Dataset
