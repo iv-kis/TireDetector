@@ -90,7 +90,6 @@ Num. batches | YOLO v4 tiny | YOLO v4
 
 ## Inference speed  
 Windows-10-10.0.19041-SP0  
-AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD  
-(CPU)  
+AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  
 > **Yolo v.4:** 1000 - 1200 ms  
 > **Yolo v.4 tiny:** 100 - 150 ms  
